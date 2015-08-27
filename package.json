@@ -1,0 +1,22 @@
+{
+  "name": "react-c3-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuct/react-c3-component"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "wuct",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuct/react-c3-component/issues"
+  },
+  "homepage": "https://github.com/wuct/react-c3-component"
+}
