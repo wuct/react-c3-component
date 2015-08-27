@@ -1,6 +1,6 @@
 {
   "name": "react-c3-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a small C3 chart component within 30 lines.",
   "main": "index.js",
   "scripts": {
