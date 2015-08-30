@@ -4,7 +4,8 @@
   "description": "It is a small C3 chart component within 30 lines.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./ && echo 'lint succesed'"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/wuct/react-c3-component/issues"
   },
-  "homepage": "https://github.com/wuct/react-c3-component"
+  "homepage": "https://github.com/wuct/react-c3-component",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.0",
+    "eslint": "^1.3.1",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.3.0"
+  },
+  "dependencies": {
+    "c3": "^0.4.10",
+    "react": "^0.13.3"
+  }
 }
