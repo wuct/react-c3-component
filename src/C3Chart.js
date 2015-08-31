@@ -1,8 +1,8 @@
 import { default as React, findDOMNode } from 'react';
 import pureRender from 'pure-render-decorator';
-import c3 from 'c3';
+import c32 from 'c3';
 import 'c3/c3.css';
-
+{ a: a}
 @pureRender
 export default class C3Chart extends React.Component {
   componentDidMount() {
