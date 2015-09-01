@@ -1,11 +1,12 @@
 {
   "name": "react-c3-component",
   "version": "1.0.1",
-  "description": "It is a small C3 chart component within 30 lines.",
-  "main": "index.js",
+  "description": "It is a small C3 chart component.",
+  "main": "lib/Chart.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./ && echo 'lint succesed'"
+    "lint": "eslint ./ && echo 'lint succesed'",
+    "build": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
