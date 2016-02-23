@@ -4,7 +4,6 @@ import c3 from 'c3';
 
 export default class Chart extends React.Component {
   static propTypes = {
-    style: PropTypes.object,
     config: PropTypes.object,
   }
 
@@ -22,7 +21,8 @@ export default class Chart extends React.Component {
   }
 
   render() {
-    return <div style={this.props.style} />;
+    const { config, ...otherProps } = this.props;
+    return <div {...otherProps} />;
   }
 
   _renderChart() {
