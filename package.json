@@ -1,6 +1,6 @@
 {
   "name": "react-c3-component",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "It is a small C3 chart component.",
   "main": "lib/Chart.js",
   "scripts": {
