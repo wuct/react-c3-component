@@ -1,6 +1,5 @@
 import { default as React, findDOMNode, PropTypes } from 'react';
 import c3 from 'c3';
-import 'c3/c3.css';
 
 export default class Chart extends React.Component {
   static propTypes = {
