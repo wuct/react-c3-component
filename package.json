@@ -29,8 +29,8 @@
     "eslint-plugin-react": "^3.3.0",
     "reacthtmlpack": "^0.2.3"
   },
-  "dependencies": {
+  "peerDependencies": {
     "c3": "^0.4.10",
-    "react": "^0.13.3"
+    "react": "^0.14.0"
   }
 }
