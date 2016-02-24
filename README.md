@@ -11,6 +11,8 @@ export default function SimpleLineChart() {
   return (
     <Chart
       config={{
+        // Add your C3 config excluding bindto here
+        // http://c3js.org/reference.html
         data: {
           columns: [
             ['data1', 30, 200, 100, 400, 150, 250],
