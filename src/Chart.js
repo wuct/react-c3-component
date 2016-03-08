@@ -1,6 +1,5 @@
 import { default as React, PropTypes } from 'react';
 import { findDOMNode } from 'react-dom';
-import c3 from 'c3';
 
 export default class Chart extends React.Component {
   static propTypes = {
@@ -8,6 +7,7 @@ export default class Chart extends React.Component {
   }
 
   componentDidMount() {
+    this.c3 = require('c3');
     this._renderChart();
   }
 
@@ -26,7 +26,7 @@ export default class Chart extends React.Component {
   }
 
   _renderChart() {
-    this.chart = c3.generate({
+    this.chart = this.c3.generate({
       bindto: findDOMNode(this),
       ...this.props.config,
     });
