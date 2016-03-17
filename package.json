@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha -c --compilers js:babel-core/register src/**/*.test.js",
     "lint": "eslint ./ && echo 'lint succesed'",
-    "build": "babel src --out-dir lib",
+    "prebuild": "npm run test",
+    "build": "babel src --out-dir lib --ignore *.test.js",
     "prepublish": "npm run build"
   },
   "repository": {
