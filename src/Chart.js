@@ -8,15 +8,22 @@ export default class Chart extends React.Component {
 
   componentDidMount() {
     this.c3 = require('c3')
-    this._renderChart()
+    this.generateChart()
   }
 
   componentDidUpdate() {
-    this._renderChart()
+    this.generateChart()
   }
 
   componentWillUnmount() {
     this.chart = this.chart.destroy()
+  }
+
+  generateChart() {
+    this.chart = this.c3.generate({
+      bindto: findDOMNode(this),
+      ...this.props.config,
+    })
   }
 
   render() {
@@ -24,10 +31,4 @@ export default class Chart extends React.Component {
     return <div {...otherProps} />
   }
 
-  _renderChart() {
-    this.chart = this.c3.generate({
-      bindto: findDOMNode(this),
-      ...this.props.config,
-    })
-  }
 }
