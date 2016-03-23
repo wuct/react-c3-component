@@ -1,6 +1,7 @@
 # react-c3-component
 
 [![npm](https://img.shields.io/npm/v/react-c3-component.svg)](https://www.npmjs.com/package/react-c3-component)
+[![Travis](https://img.shields.io/travis/wuct/react-c3-component.svg)](https://travis-ci.org/wuct/react-c3-component)
 
 > React.js C3 integration component
 
