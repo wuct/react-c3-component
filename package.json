@@ -40,7 +40,6 @@
     "react-dom": "^0.14.7"
   },
   "peerDependencies": {
-    "c3": "^0.4.10",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   }
