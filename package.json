@@ -5,6 +5,8 @@
   "main": "lib/Chart.js",
   "scripts": {
     "test": "mocha -c --compilers js:babel-core/register src/**/*.test.js",
+    "test:coverage": "nyc npm run test",
+    "coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "lint": "eslint ./ && echo 'lint succesed'",
     "prebuild": "npm run test",
     "build": "babel src --out-dir lib --ignore *.test.js",
@@ -35,8 +37,9 @@
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^5.0.1",
     "mocha": "^2.5.0",
-    "react-addons-test-utils": "^15.0.0",
+    "nyc": "^6.4.4",
     "react": "^15.0.0",
+    "react-addons-test-utils": "^15.0.0",
     "react-dom": "^15.0.0"
   },
   "peerDependencies": {
