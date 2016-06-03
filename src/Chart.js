@@ -1,7 +1,7 @@
-import { default as React, PropTypes } from 'react'
+import React, {Component, PropTypes} from 'react'
 import { findDOMNode } from 'react-dom'
 
-export default class Chart extends React.Component {
+export default class Chart extends Component {
   static propTypes = {
     config: PropTypes.object,
   }
