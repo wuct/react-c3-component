@@ -35,7 +35,7 @@
     "c3": "^0.4.11",
     "chai": "^3.5.0",
     "codecov": "^1.0.1",
-    "eslint": "^2.4.0",
+    "eslint": "^3.0.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^5.0.1",
     "mocha": "^2.5.0",
