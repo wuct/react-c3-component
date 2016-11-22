@@ -39,7 +39,7 @@
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^6.0.0",
     "mocha": "^3.0.0",
-    "nyc": "^9.0.1",
+    "nyc": "^10.0.0",
     "react": "^15.0.0",
     "react-addons-test-utils": "^15.0.0",
     "react-dom": "^15.0.0"
