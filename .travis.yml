@@ -12,6 +12,6 @@ addons:
 before_install:
   - npm install -g npm
 script:
-  - npm run test:coverage
+  - npm run test
 after_success:
   - npm run coverage
