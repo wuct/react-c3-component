@@ -4,9 +4,8 @@
   "description": "It is a small C3 chart component.",
   "main": "lib/Chart.js",
   "scripts": {
-    "test": "mocha -c --compilers js:babel-core/register src/**/*.test.js",
-    "test:coverage": "nyc npm run test",
-    "coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
+    "test": "jest",
+    "coverage": "codecov",
     "lint": "eslint ./ && echo 'lint succesed'",
     "prebuild": "npm run test",
     "build": "babel src --out-dir lib --ignore *.test.js",
@@ -33,20 +32,23 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "c3": "^0.4.11",
-    "chai": "^3.5.0",
     "codecov": "^2.0.1",
+    "enzyme": "^2.8.2",
     "eslint": "^3.0.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^6.0.0",
-    "mocha": "^3.0.0",
-    "nyc": "^10.0.0",
+    "jest": "^20.0.4",
     "react": "^15.0.0",
-    "react-addons-test-utils": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react-dom": "^15.0.0",
+    "react-test-renderer": "^15.5.4"
   },
   "peerDependencies": {
     "c3": "^0.4.0",
     "react": "^0.14.7 || ^15.0.0",
     "react-dom": "^0.14.7 || ^15.0.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
