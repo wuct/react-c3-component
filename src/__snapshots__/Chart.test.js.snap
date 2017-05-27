@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`call c3.generate 1`] = `
+Array [
+  Array [
+    Object {
+      "bindto": <div
+        data-reactroot=""
+/>,
+      "foo": 1,
+    },
+  ],
+  Array [
+    Object {
+      "bindto": <div
+        data-reactroot=""
+/>,
+      "foo": 2,
+    },
+  ],
+]
+`;
