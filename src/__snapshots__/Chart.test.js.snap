@@ -20,3 +20,9 @@ Array [
   ],
 ]
 `;
+
+exports[`call c3.generate 2`] = `
+Array [
+  Array [],
+]
+`;

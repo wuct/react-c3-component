@@ -3,7 +3,10 @@ import { mount } from 'enzyme'
 import Chart from './Chart'
 
 jest.mock('c3', () => {
-  const mockGenerate = jest.fn()
+  const mockDestroy = jest.fn()
+  const mockGenerate = jest.fn(() => ({
+    destroy: mockDestroy
+  }))
 
   return {
     generate: mockGenerate
@@ -17,4 +20,9 @@ test('call c3.generate', () => {
 
   const mockGenerate = require('c3').generate
   expect(mockGenerate.mock.calls).toMatchSnapshot()
+
+  chart.unmount()
+
+  const { destroy: mockDestroy } = mockGenerate()
+  expect(mockDestroy.mock.calls).toMatchSnapshot()
 })
