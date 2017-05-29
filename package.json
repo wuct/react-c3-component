@@ -43,7 +43,7 @@
     "react-test-renderer": "^15.5.4"
   },
   "peerDependencies": {
-    "c3": "^0.4.0",
+    "c3": "^0.4.12",
     "react": "^0.14.7 || ^15.0.0",
     "react-dom": "^0.14.7 || ^15.0.0"
   },
