@@ -6,7 +6,7 @@ Array [
     Object {
       "bindto": <div
         data-reactroot=""
-/>,
+      />,
       "foo": 1,
     },
   ],
@@ -14,7 +14,7 @@ Array [
     Object {
       "bindto": <div
         data-reactroot=""
-/>,
+      />,
       "foo": 2,
     },
   ],
