@@ -33,7 +33,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "c3": "^0.4.11",
     "codecov": "^2.0.1",
-    "enzyme": "^2.8.2",
+    "enzyme": "^3.0.0",
     "eslint": "^4.1.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^7.1.0",
