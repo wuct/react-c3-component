@@ -40,7 +40,7 @@
     "jest": "^21.1.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "react-test-renderer": "^15.5.4"
+    "react-test-renderer": "^16.0.0"
   },
   "peerDependencies": {
     "c3": "^0.4.0",
