@@ -33,19 +33,20 @@
     "babel-preset-stage-0": "^6.5.0",
     "c3": "^0.4.11",
     "codecov": "^2.0.1",
-    "enzyme": "^2.8.2",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
     "eslint": "^4.1.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^21.1.0",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
-    "react-test-renderer": "^15.5.4"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0"
   },
   "peerDependencies": {
     "c3": "^0.4.0",
-    "react": "^0.14.7 || ^15.0.0",
-    "react-dom": "^0.14.7 || ^15.0.0"
+    "react": "^0.14.7 || ^15.0.0 || ^16.0.0",
+    "react-dom": "^0.14.7 || ^15.0.0 || ^16.0.0"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
