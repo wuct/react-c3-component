@@ -1,6 +1,9 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { mount, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
 import Chart from './Chart'
+
+configure({ adapter: new Adapter() })
 
 jest.mock('c3', () => {
   const mockDestroy = jest.fn()
