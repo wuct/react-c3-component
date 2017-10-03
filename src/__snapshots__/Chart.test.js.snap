@@ -4,17 +4,13 @@ exports[`call c3.generate 1`] = `
 Array [
   Array [
     Object {
-      "bindto": <div
-        data-reactroot=""
-      />,
+      "bindto": <div />,
       "foo": 1,
     },
   ],
   Array [
     Object {
-      "bindto": <div
-        data-reactroot=""
-      />,
+      "bindto": <div />,
       "foo": 2,
     },
   ],
