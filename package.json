@@ -36,7 +36,6 @@
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
     "eslint": "^5.0.0",
-    "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^22.0.0",
     "react": "^16.0.0",
