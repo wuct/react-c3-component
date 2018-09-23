@@ -9,7 +9,7 @@
     "lint": "eslint ./ && echo 'lint succesed'",
     "prebuild": "npm run test",
     "build": "babel src --out-dir lib --ignore *.test.js",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
