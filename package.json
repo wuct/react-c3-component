@@ -8,7 +8,7 @@
     "coverage": "codecov",
     "lint": "eslint ./ && echo 'lint succesed'",
     "prebuild": "npm run test",
-    "build": "babel src --out-dir lib --ignore *.test.js",
+    "build": "babel src --out-dir lib --ignore **/*.test.js",
     "prepare": "npm run build"
   },
   "repository": {
