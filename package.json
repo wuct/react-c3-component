@@ -8,7 +8,7 @@
     "coverage": "codecov",
     "lint": "eslint ./ && echo 'lint succesed'",
     "prebuild": "npm run test",
-    "build": "babel src --out-dir lib --ignore *.test.js",
+    "build": "babel src --out-dir lib --ignore **/*.test.js",
     "prepare": "npm run build"
   },
   "repository": {
@@ -25,22 +25,22 @@
   },
   "homepage": "https://github.com/wuct/react-c3-component",
   "devDependencies": {
-    "babel-cli": "^6.7.5",
-    "babel-core": "^6.7.2",
-    "babel-eslint": "^9.0.0",
-    "babel-preset-es2015": "^6.6.0",
-    "babel-preset-react": "^6.5.0",
-    "babel-preset-stage-0": "^6.5.0",
-    "c3": "^0.6.0",
-    "codecov": "^3.0.0",
-    "enzyme": "^3.4.4",
-    "enzyme-adapter-react-16": "^1.2.0",
-    "eslint": "^5.0.0",
-    "eslint-plugin-react": "^7.1.0",
-    "jest": "^22.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-test-renderer": "^16.0.0"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "c3": "^0.6.12",
+    "codecov": "^3.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "eslint": "^5.14.0",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-test-renderer": "^16.8.2"
   },
   "peerDependencies": {
     "c3": "^0.4.0",
@@ -51,6 +51,6 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.7.2"
   }
 }
