@@ -1,17 +1,8 @@
 language: node_js
 node_js:
-- "node"
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
-before_install:
-  - npm install -g npm
+  - '10'
+cache: yarn
 script:
-  - npm run test
+  - yarn run test
 after_success:
-  - npm run coverage
+  - yarn run coverage
