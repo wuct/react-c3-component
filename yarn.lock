@@ -1316,12 +1316,12 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-c3@^0.6.14:
-  version "0.6.14"
-  resolved "https://registry.yarnpkg.com/c3/-/c3-0.6.14.tgz#1969c0ff35749fd97f0ab70cdab8c7c7c267ba6a"
-  integrity sha512-ShbGpm2kGVOGaupEif2j+47GXXuv/D4USHpuFYLKp5VyywHGitnT8r7XIsU4n+U2foN/CUQT4nTdkePW89be1g==
+c3@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/c3/-/c3-0.7.0.tgz#91581f0ab8b5a1918e18ccc15c213a44594da00e"
+  integrity sha512-bJeswFt1vPZrcxkmhcCBYTuNNSuU1FjuXj3e0XmgkHpUeK6wdzSBfFFFgcCA66VRvkO9HULIdEmROznu7FK3NA==
   dependencies:
-    d3 "^5.0.0"
+    d3 "^5.8.0"
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -1815,7 +1815,7 @@ d3-zoom@1:
     d3-selection "1"
     d3-transition "1"
 
-d3@^5.0.0:
+d3@^5.8.0:
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/d3/-/d3-5.9.2.tgz#64e8a7e9c3d96d9e6e4999d2c8a2c829767e67f5"
   integrity sha512-ydrPot6Lm3nTWH+gJ/Cxf3FcwuvesYQ5uk+j/kXEH/xbuYWYWTMAHTJQkyeuG8Y5WM5RSEYB41EctUrXQQytRQ==
