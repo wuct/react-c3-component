@@ -28,7 +28,7 @@
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
     "@babel/plugin-proposal-class-properties": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "c3": "^0.7.0",
