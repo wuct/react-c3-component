@@ -1,3 +1,8 @@
+## 2.0.0 (Aug 7, 2019)
+
+### Breaking change
+- Use `PureComponent` to avoid unnecessary updates and drop the support of React below 15.3.
+
 ## 1.4.0 (Sep 23, 2018)
 
 - Remove `react-dom` from peerDependencies.
