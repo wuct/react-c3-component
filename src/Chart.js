@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import c3 from 'c3';
 
-export default class Chart extends React.Component {
+export default class Chart extends React.PureComponent {
   static propTypes = {
     config: PropTypes.object,
   };
 
   componentDidMount() {
-    this.c3 = require('c3');
     this.generateChart();
   }
 
@@ -20,7 +20,7 @@ export default class Chart extends React.Component {
   }
 
   generateChart() {
-    this.chart = this.c3.generate({
+    this.chart = c3.generate({
       bindto: this.node,
       ...this.props.config,
     });
