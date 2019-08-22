@@ -1,8 +1,8 @@
 # react-c3-component
 
 [![npm](https://img.shields.io/npm/v/react-c3-component.svg)](https://www.npmjs.com/package/react-c3-component)
-[![Travis](https://img.shields.io/travis/wuct/react-c3-component.svg)](https://travis-ci.org/wuct/react-c3-component)
-[![Codecov](https://img.shields.io/codecov/c/github/wuct/react-c3-component.svg)](https://codecov.io/github/wuct/react-c3-component)
+[![Build Status](https://travis-ci.org/wuct/react-c3-component.svg?branch=master)](https://travis-ci.org/wuct/react-c3-component)
+[![codecov](https://codecov.io/gh/wuct/react-c3-component/branch/master/graph/badge.svg)](https://codecov.io/gh/wuct/react-c3-component) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 > React.js C3 integration component
 
