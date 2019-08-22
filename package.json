@@ -31,7 +31,7 @@
     "@babel/preset-env": "7.5.5",
     "@babel/preset-react": "7.0.0",
     "babel-eslint": "10.0.2",
-    "c3": "0.7.2",
+    "c3": "0.7.6",
     "codecov": "3.5.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
@@ -43,7 +43,7 @@
     "react-test-renderer": "16.9.0"
   },
   "peerDependencies": {
-    "c3": "^0.4.0",
+    "c3": "^0.4.0 || ^0.7.0",
     "react": "^15.3.0 || ^16.0.0"
   },
   "jest": {
