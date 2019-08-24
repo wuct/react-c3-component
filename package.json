@@ -43,7 +43,7 @@
     "react-test-renderer": "16.9.0"
   },
   "peerDependencies": {
-    "c3": "^0.4.0 || ^0.7.0",
+    "c3": ">= 0.4 < 0.8",
     "react": "^15.3.0 || ^16.0.0"
   },
   "jest": {
