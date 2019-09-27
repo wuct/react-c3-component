@@ -38,9 +38,9 @@
     "eslint": "6.4.0",
     "eslint-plugin-react": "7.14.3",
     "jest": "24.9.0",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "react-test-renderer": "16.9.0"
+    "react": "16.10.0",
+    "react-dom": "16.10.0",
+    "react-test-renderer": "16.10.0"
   },
   "peerDependencies": {
     "c3": "^0.4.0",
