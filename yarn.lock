@@ -1771,10 +1771,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-c3@0.7.6:
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/c3/-/c3-0.7.6.tgz#2af06c2b740da3f3e76ef02e1b13a56cb4c9c4ab"
-  integrity sha512-+BHd7L51nSvogztHiqts3KuKI/3Pa8JQ1Qy7grWzcNfYQ4jesscrhg/i3fxJa6QM7BrYkho3jxfpkdy/ZMwCkw==
+c3@0.7.15:
+  version "0.7.15"
+  resolved "https://registry.yarnpkg.com/c3/-/c3-0.7.15.tgz#d848051800386f0123a96841e2c2dddbf1534d29"
+  integrity sha512-4hck3Y0VSzPuIghKiSzl8WIIO9OLuKaYpkOV1WtIOPPSHsVUHB1iAXjlLVDdGRbqr2iGnQHoxucKmcOxgkq6gQ==
   dependencies:
     d3 "^5.8.0"
 
