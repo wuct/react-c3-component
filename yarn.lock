@@ -2105,10 +2105,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-c3@0.7.15:
-  version "0.7.15"
-  resolved "https://registry.yarnpkg.com/c3/-/c3-0.7.15.tgz#d848051800386f0123a96841e2c2dddbf1534d29"
-  integrity sha512-4hck3Y0VSzPuIghKiSzl8WIIO9OLuKaYpkOV1WtIOPPSHsVUHB1iAXjlLVDdGRbqr2iGnQHoxucKmcOxgkq6gQ==
+c3@0.7.17:
+  version "0.7.17"
+  resolved "https://registry.yarnpkg.com/c3/-/c3-0.7.17.tgz#544969473f5803d5d9c618acd6889a60113d0a6e"
+  integrity sha512-QO1J5nXQ9TZFLiEvWvf0Spt5SEWpe/PzvU5VCkPUf7euSdVnvL7vc73HSzqGQoWleQWjURLRiSYoMH4SBscKeg==
   dependencies:
     d3 "^5.8.0"
 
