@@ -31,7 +31,7 @@
     "@babel/preset-env": "7.10.2",
     "@babel/preset-react": "7.10.1",
     "babel-eslint": "10.1.0",
-    "c3": "0.7.15",
+    "c3": "0.7.17",
     "codecov": "3.7.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
