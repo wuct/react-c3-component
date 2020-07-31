@@ -37,7 +37,7 @@
     "enzyme-adapter-react-16": "1.15.2",
     "eslint": "7.5.0",
     "eslint-plugin-react": "7.20.5",
-    "jest": "26.2.1",
+    "jest": "26.2.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-test-renderer": "16.13.1"
