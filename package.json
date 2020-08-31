@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/wuct/react-c3-component",
   "devDependencies": {
-    "@babel/cli": "7.10.5",
-    "@babel/core": "7.11.4",
+    "@babel/cli": "7.11.5",
+    "@babel/core": "7.11.5",
     "@babel/plugin-proposal-class-properties": "7.10.4",
-    "@babel/preset-env": "7.11.0",
+    "@babel/preset-env": "7.11.5",
     "@babel/preset-react": "7.10.4",
     "babel-eslint": "10.1.0",
     "c3": "0.7.20",
